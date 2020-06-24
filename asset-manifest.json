@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/svac-frontend/static/css/main.5f361e03.chunk.css",
+    "main.js": "/svac-frontend/static/js/main.8ce23579.chunk.js",
+    "main.js.map": "/svac-frontend/static/js/main.8ce23579.chunk.js.map",
+    "runtime-main.js": "/svac-frontend/static/js/runtime-main.14ae413e.js",
+    "runtime-main.js.map": "/svac-frontend/static/js/runtime-main.14ae413e.js.map",
+    "static/js/2.31581b42.chunk.js": "/svac-frontend/static/js/2.31581b42.chunk.js",
+    "static/js/2.31581b42.chunk.js.map": "/svac-frontend/static/js/2.31581b42.chunk.js.map",
+    "index.html": "/svac-frontend/index.html",
+    "precache-manifest.e1a85db2f4d269b832642b766baf5c2f.js": "/svac-frontend/precache-manifest.e1a85db2f4d269b832642b766baf5c2f.js",
+    "service-worker.js": "/svac-frontend/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/svac-frontend/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.31581b42.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.31581b42.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14ae413e.js",
+    "static/js/2.31581b42.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8ce23579.chunk.js"
+  ]
+}
