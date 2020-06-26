@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/svac-frontend/static/css/main.523f09c5.chunk.css",
-    "main.js": "/svac-frontend/static/js/main.2a6dbaef.chunk.js",
-    "main.js.map": "/svac-frontend/static/js/main.2a6dbaef.chunk.js.map",
+    "main.js": "/svac-frontend/static/js/main.f458b017.chunk.js",
+    "main.js.map": "/svac-frontend/static/js/main.f458b017.chunk.js.map",
     "runtime-main.js": "/svac-frontend/static/js/runtime-main.14ae413e.js",
     "runtime-main.js.map": "/svac-frontend/static/js/runtime-main.14ae413e.js.map",
     "static/js/2.31581b42.chunk.js": "/svac-frontend/static/js/2.31581b42.chunk.js",
     "static/js/2.31581b42.chunk.js.map": "/svac-frontend/static/js/2.31581b42.chunk.js.map",
     "index.html": "/svac-frontend/index.html",
-    "precache-manifest.3ac4a054ee6b3d331f03bf14d20d8d55.js": "/svac-frontend/precache-manifest.3ac4a054ee6b3d331f03bf14d20d8d55.js",
+    "precache-manifest.e83922bea6eed1b1273639b95b568ee6.js": "/svac-frontend/precache-manifest.e83922bea6eed1b1273639b95b568ee6.js",
     "service-worker.js": "/svac-frontend/service-worker.js",
     "static/css/main.523f09c5.chunk.css.map": "/svac-frontend/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.31581b42.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.31581b42.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.14ae413e.js",
     "static/js/2.31581b42.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.2a6dbaef.chunk.js"
+    "static/js/main.f458b017.chunk.js"
   ]
 }
