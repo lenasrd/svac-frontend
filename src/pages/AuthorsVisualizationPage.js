@@ -27,12 +27,7 @@ export default function AuthorsVisualizationPage() {
           title="Which authors have published most papers?"
           animated={true}
         >
-          <div
-            dangerouslySetInnerHTML={{
-              __html:
-                "<iframe src='https://flo.uri.sh/visualisation/2780103/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'</iframe>",
-            }}
-          />
+          <Typography>I'm an explanatory text</Typography>
         </Question>
         <Divider></Divider>
         <Question title="Which authors have been publishing over the longest time period?">
