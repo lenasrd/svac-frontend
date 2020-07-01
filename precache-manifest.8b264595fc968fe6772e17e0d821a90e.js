@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6d243d95b071048a34fdc62f7fdcfa7",
+    "revision": "629b3264ce64b9414049e84e947dd1b6",
     "url": "/svac-frontend/index.html"
   },
   {
-    "revision": "9bd03935ec0a9d181490",
+    "revision": "cc74740d8a7e1a6e2159",
     "url": "/svac-frontend/static/css/main.523f09c5.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/svac-frontend/static/js/2.a23b1523.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9bd03935ec0a9d181490",
-    "url": "/svac-frontend/static/js/main.82a1a56c.chunk.js"
+    "revision": "cc74740d8a7e1a6e2159",
+    "url": "/svac-frontend/static/js/main.b321f988.chunk.js"
   },
   {
     "revision": "a54ebbe96be8ef05839e",
     "url": "/svac-frontend/static/js/runtime-main.14ae413e.js"
   },
   {
-    "revision": "58dbd4eb98bf173d1d62a47e25c4f573",
-    "url": "/svac-frontend/static/media/logo_white.58dbd4eb.png"
+    "revision": "beb4bf9db12a26c4f0419499296369da",
+    "url": "/svac-frontend/static/media/logo_white.beb4bf9d.png"
   }
 ]);
