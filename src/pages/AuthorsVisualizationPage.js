@@ -1,4 +1,3 @@
-import Toolbar from "@material-ui/core/Toolbar";
 import React from "react";
 import Question from "../Question";
 import Divider from "@material-ui/core/Divider";
@@ -16,8 +15,7 @@ export default function AuthorsVisualizationPage() {
 
   return (
     <main>
-      <Toolbar />
-      <h1>Authors</h1>
+      <Typography variant="h4">Authors</Typography>
       <Typography>
         In this section, we will display our findings related to the Authors in
         our dataset.
