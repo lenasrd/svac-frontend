@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6ee6c972183a729dfe2f5f2b76e8900",
+    "revision": "a6d243d95b071048a34fdc62f7fdcfa7",
     "url": "/svac-frontend/index.html"
   },
   {
