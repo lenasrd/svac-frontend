@@ -17,10 +17,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   highlightAnimated: {
-    backgroundClip: "text",
-    color: "transparent",
-    background:
-      "linear-gradient(270deg, rgba(53,169,160,1) 0%, rgba(40,139,162,1) 100%)",
+    color: "#35A9A0",
     paddingRight: "0.1em",
     marginLeft: "0.5em",
     fontStyle: "italic",

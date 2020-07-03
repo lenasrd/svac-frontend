@@ -7,7 +7,12 @@ import Toolbar from "@material-ui/core/Toolbar";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 import logo_white from "./logo_white.png";
 
 import { createMuiTheme } from "@material-ui/core/styles";
@@ -84,12 +89,18 @@ export default function DrawerMenu() {
     <ThemeProvider theme={theme}>
       <div className={classes.root}>
         <CssBaseline />
-        <AppBar position="fixed" className={classes.appBar}>
-          <Toolbar>
-            <img src={logo_white} alt="VASC Logo" className={classes.logo} />
-          </Toolbar>
-        </AppBar>
         <Router>
+          <AppBar position="fixed" className={classes.appBar}>
+            <Toolbar>
+              <Link to="/project">
+                <img
+                  src={logo_white}
+                  alt="VACS Logo"
+                  className={classes.logo}
+                />
+              </Link>
+            </Toolbar>
+          </AppBar>
           <Drawer
             className={classes.drawer}
             variant="permanent"
@@ -181,6 +192,9 @@ export default function DrawerMenu() {
               path="/authors-visualizations"
               component={AuthorsVisualizationPage}
             />
+            <Route exact path="/">
+              <Redirect to="/project" />
+            </Route>
           </main>
         </Router>
       </div>
