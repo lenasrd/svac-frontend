@@ -1,0 +1,17 @@
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: linear-gradient(
+    180deg,
+    rgba(61, 188, 161, 1) 0%,
+    rgba(24, 92, 157, 1) 100%
+  );
+}
+
+.vertical-timeline {
+  max-width: none;
+  padding: 0em;
+  margin-top: 3em;
+}
+
+.flourish-credit {
+  display: none !important;
+}
