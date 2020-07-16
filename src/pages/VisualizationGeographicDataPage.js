@@ -11,15 +11,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function VisualizationCountriesCitiesPage() {
+export default function VisualizationGeographicDataPage() {
   const classes = useStyles();
 
   return (
     <main>
-      <Typography variant="h4">Countries &amp; cities</Typography>
+      <Typography variant="h4">Geographic data</Typography>
       <Typography>
-        In this section, we will display our findings related to countries and
-        cities in our dataset.
+        In this section, we will display our findings related to geographic data
+        in our dataset.
       </Typography>
       <div className={classes.questionList}>
         <Question title="#1" flourishId="3072954"></Question>

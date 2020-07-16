@@ -18,7 +18,7 @@ export default function VisualizationAuthorsPage() {
     <main>
       <Typography variant="h4">Authors</Typography>
       <Typography>
-        In this section, we will display our findings related to the Authors in
+        In this section, we will display our findings related to the authors in
         our dataset.
       </Typography>
       <div className={classes.questionList}>

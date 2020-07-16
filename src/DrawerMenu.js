@@ -21,7 +21,7 @@ import { ThemeProvider } from "@material-ui/styles";
 import ProjectPage from "./pages/ProjectPage";
 import LimitationsPage from "./pages/LimitationsPage";
 import VisualizationAuthorsPage from "./pages/VisualizationAuthorsPage";
-import VisualizationCountriesCitiesPage from "./pages/VisualizationCountriesCitiesPage";
+import VisualizationGeographicDataPage from "./pages/VisualizationGeographicDataPage";
 import VisualizationKeywordsPage from "./pages/VisualizationKeywordsPage";
 import VisualizationPaperMetaDataPage from "./pages/VisualizationPaperMetaDataPage";
 import VisualizationPricingPage from "./pages/VisualizationPricingPage";
@@ -167,9 +167,9 @@ export default function DrawerMenu() {
                   button
                   className={classes.nested}
                   component={Link}
-                  to={"/visualizations-countries-cities"}
+                  to={"/visualizations-geographic-data"}
                 >
-                  <ListItemText primary="Countries &amp; cities" />
+                  <ListItemText primary="Geographic data" />
                 </ListItem>
                 <ListItem
                   button
@@ -183,9 +183,9 @@ export default function DrawerMenu() {
                   button
                   className={classes.nested}
                   component={Link}
-                  to={"/visualizations-paper-meta-data"}
+                  to={"/visualizations-paper-metadata"}
                 >
-                  <ListItemText primary="Paper meta data" />
+                  <ListItemText primary="Paper metadata" />
                 </ListItem>
                 <ListItem
                   button
@@ -216,8 +216,8 @@ export default function DrawerMenu() {
             />
             <Route
               exact
-              path="/visualizations-countries-cities"
-              component={VisualizationCountriesCitiesPage}
+              path="/visualizations-geographic-data"
+              component={VisualizationGeographicDataPage}
             />
             <Route
               exact
@@ -226,7 +226,7 @@ export default function DrawerMenu() {
             />
             <Route
               exact
-              path="/visualizations-paper-meta-data"
+              path="/visualizations-paper-metadata"
               component={VisualizationPaperMetaDataPage}
             />
             <Route
