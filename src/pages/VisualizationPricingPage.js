@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
 import question24 from "../images/question24.png";
+import ScrollUpButton from "./ScrollUpButton";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -16,6 +17,7 @@ export default function VisualizationPricingPage() {
 
   return (
     <main>
+      <ScrollUpButton></ScrollUpButton>
       <Typography variant="h4">Pricing</Typography>
       <div className={classes.questionList}>
         <Question

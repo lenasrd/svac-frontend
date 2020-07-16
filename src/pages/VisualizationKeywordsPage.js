@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
 import question2 from "../images/question2.png";
 import InfoBox from "../InfoBox";
+import ScrollUpButton from "./ScrollUpButton";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -17,6 +18,7 @@ export default function VisualizationKeywordsPage() {
 
   return (
     <main>
+      <ScrollUpButton></ScrollUpButton>
       <Typography variant="h4">Keywords</Typography>
       <div className={classes.questionList}>
         <Question
