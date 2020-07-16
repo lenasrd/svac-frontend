@@ -25,7 +25,7 @@ export default function VisualizationAuthorsPage() {
         <Question
           title="#12"
           flourishId="3139343"
-          secondFlourishId="3140067"
+          iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question title="#19" flourishId="2993152"></Question>

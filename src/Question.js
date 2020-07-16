@@ -45,13 +45,23 @@ export default function Question(props) {
   const handleChange = () => {
     setOpen((prev) => !prev);
   };
+
+  const height = props.iframeHeight ? props.iframeHeight : "600px";
   const iframe = "<iframe src='https://flo.uri.sh/visualisation/".concat(
     props.flourishId,
-    "/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>"
+    "/embed' frameborder='0' scrolling='no' style='width:100%;height:",
+    height,
+    ";'></iframe>"
   );
+
+  const secondHeight = props.secondIframeHeight
+    ? props.secondIframeHeight
+    : "600px";
   const secondIframe = "<iframe src='https://flo.uri.sh/visualisation/".concat(
     props.secondFlourishId,
-    "/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>"
+    "/embed' frameborder='0' scrolling='no' style='width:100%;height:",
+    secondHeight,
+    ";'></iframe>"
   );
   const altText = "Visualization of".concat(props.title);
 
