@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/svac-frontend/static/css/main.d5e6449a.chunk.css",
-    "main.js": "/svac-frontend/static/js/main.aab7ce10.chunk.js",
-    "main.js.map": "/svac-frontend/static/js/main.aab7ce10.chunk.js.map",
+    "main.js": "/svac-frontend/static/js/main.91d6f67d.chunk.js",
+    "main.js.map": "/svac-frontend/static/js/main.91d6f67d.chunk.js.map",
     "runtime-main.js": "/svac-frontend/static/js/runtime-main.14ae413e.js",
     "runtime-main.js.map": "/svac-frontend/static/js/runtime-main.14ae413e.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/svac-frontend/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.40198e2c.chunk.js": "/svac-frontend/static/js/2.40198e2c.chunk.js",
-    "static/js/2.40198e2c.chunk.js.map": "/svac-frontend/static/js/2.40198e2c.chunk.js.map",
+    "static/js/2.9050be6f.chunk.js": "/svac-frontend/static/js/2.9050be6f.chunk.js",
+    "static/js/2.9050be6f.chunk.js.map": "/svac-frontend/static/js/2.9050be6f.chunk.js.map",
     "index.html": "/svac-frontend/index.html",
-    "precache-manifest.ca1d7ced01cd9eb0ddb12c7e4bc41790.js": "/svac-frontend/precache-manifest.ca1d7ced01cd9eb0ddb12c7e4bc41790.js",
+    "precache-manifest.e01320eda9b52c64ac81176431165bfa.js": "/svac-frontend/precache-manifest.e01320eda9b52c64ac81176431165bfa.js",
     "service-worker.js": "/svac-frontend/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/svac-frontend/static/css/2.ac1ab58b.chunk.css.map",
     "static/css/main.d5e6449a.chunk.css.map": "/svac-frontend/static/css/main.d5e6449a.chunk.css.map",
-    "static/js/2.40198e2c.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.40198e2c.chunk.js.LICENSE.txt",
+    "static/js/2.9050be6f.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.9050be6f.chunk.js.LICENSE.txt",
     "static/media/logo_white.png": "/svac-frontend/static/media/logo_white.beb4bf9d.png",
+    "static/media/project_visual.png": "/svac-frontend/static/media/project_visual.3b0ec7ac.png",
     "static/media/question13.png": "/svac-frontend/static/media/question13.5359130b.png",
     "static/media/question2.png": "/svac-frontend/static/media/question2.0525dfd3.png",
     "static/media/question32.png": "/svac-frontend/static/media/question32.332ac57b.png"
@@ -22,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.14ae413e.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.40198e2c.chunk.js",
+    "static/js/2.9050be6f.chunk.js",
     "static/css/main.d5e6449a.chunk.css",
-    "static/js/main.aab7ce10.chunk.js"
+    "static/js/main.91d6f67d.chunk.js"
   ]
 }
