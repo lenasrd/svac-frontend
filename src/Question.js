@@ -31,8 +31,9 @@ const useStyles = makeStyles((theme) => ({
   },
   infoBox: {
     padding: "0.8em",
-    background: "#288BA244",
-    borderRadius: "0.5em",
+    background: "#288BA222",
+    marginBottom: "5px",
+    border: "1px solid #288BA255",
   },
 }));
 
