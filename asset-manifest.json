@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/svac-frontend/static/css/main.d5e6449a.chunk.css",
-    "main.js": "/svac-frontend/static/js/main.6a11a4b4.chunk.js",
-    "main.js.map": "/svac-frontend/static/js/main.6a11a4b4.chunk.js.map",
+    "main.js": "/svac-frontend/static/js/main.e8e971a6.chunk.js",
+    "main.js.map": "/svac-frontend/static/js/main.e8e971a6.chunk.js.map",
     "runtime-main.js": "/svac-frontend/static/js/runtime-main.14ae413e.js",
     "runtime-main.js.map": "/svac-frontend/static/js/runtime-main.14ae413e.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/svac-frontend/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.aaedc818.chunk.js": "/svac-frontend/static/js/2.aaedc818.chunk.js",
-    "static/js/2.aaedc818.chunk.js.map": "/svac-frontend/static/js/2.aaedc818.chunk.js.map",
+    "static/js/2.4d902203.chunk.js": "/svac-frontend/static/js/2.4d902203.chunk.js",
+    "static/js/2.4d902203.chunk.js.map": "/svac-frontend/static/js/2.4d902203.chunk.js.map",
     "index.html": "/svac-frontend/index.html",
-    "precache-manifest.2e5c288f29c6441f4b9193211d1389dc.js": "/svac-frontend/precache-manifest.2e5c288f29c6441f4b9193211d1389dc.js",
+    "precache-manifest.f18dffd2915076b39bcef48fa30ab566.js": "/svac-frontend/precache-manifest.f18dffd2915076b39bcef48fa30ab566.js",
     "service-worker.js": "/svac-frontend/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/svac-frontend/static/css/2.ac1ab58b.chunk.css.map",
     "static/css/main.d5e6449a.chunk.css.map": "/svac-frontend/static/css/main.d5e6449a.chunk.css.map",
-    "static/js/2.aaedc818.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.aaedc818.chunk.js.LICENSE.txt",
+    "static/js/2.4d902203.chunk.js.LICENSE.txt": "/svac-frontend/static/js/2.4d902203.chunk.js.LICENSE.txt",
     "static/media/logo_white.png": "/svac-frontend/static/media/logo_white.beb4bf9d.png",
     "static/media/project_visual.png": "/svac-frontend/static/media/project_visual.3b0ec7ac.png",
     "static/media/question2.png": "/svac-frontend/static/media/question2.0525dfd3.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.14ae413e.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.aaedc818.chunk.js",
+    "static/js/2.4d902203.chunk.js",
     "static/css/main.d5e6449a.chunk.css",
-    "static/js/main.6a11a4b4.chunk.js"
+    "static/js/main.e8e971a6.chunk.js"
   ]
 }
