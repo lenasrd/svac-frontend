@@ -37,6 +37,11 @@ const useStyles = makeStyles((theme) => ({
   titleBox: {
     display: "flex",
   },
+  infoBox: {
+    padding: "0.8em",
+    background: "#288BA244",
+    borderRadius: "0.5em",
+  },
 }));
 
 export default function Question(props) {
@@ -86,6 +91,9 @@ export default function Question(props) {
       <div>
         <Collapse in={open}>
           {props.children}
+          {props.info && (
+            <Typography className={classes.infoBox}>{props.info}</Typography>
+          )}
           {props.flourishId && (
             <div
               dangerouslySetInnerHTML={{

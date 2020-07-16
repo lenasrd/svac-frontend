@@ -23,9 +23,10 @@ export default function VisualizationAuthorsPage() {
       </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#12"
+          title="Who are the top 100 authors in terms of number of publications?"
           flourishId="3139343"
           iframeHeight="2500px"
+          info="This is a descriptive text about visualization #12 that briefly explains what is displayed here."
         ></Question>
         <Divider></Divider>
         <Question title="#19" flourishId="2993152"></Question>
