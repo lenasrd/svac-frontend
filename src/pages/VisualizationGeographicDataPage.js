@@ -45,8 +45,8 @@ export default function VisualizationGeographicDataPage() {
             <Typography>
               The data points on this map each represent an institution located
               in Germany. The size visualizes the number of pubications that
-              this institution has published. On hover the three most popular
-              keywords in said papers are displayed.
+              this institution has published. On hover the three most commonly
+              used keywords in said papers are displayed.
               <br />
               <strong>Limitations:</strong> It is possible that positions
               displayed on the map are not correct. This may be due to
@@ -85,7 +85,7 @@ export default function VisualizationGeographicDataPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#15 Which countries contribute to the top 1000 popular papers?"
+          title="#15 Which countries contributed to the 1000 most downloaded papers?"
           flourishId="3107129"
         ></Question>
         <Divider></Divider>

@@ -32,7 +32,7 @@ export default function VisualizationPaperMetaDataPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#33 Did the avarage length of papers change over time?"
+          title="#33 Did the average length of papers change over time?"
           flourishId="3126640"
         ></Question>
         <Divider></Divider>

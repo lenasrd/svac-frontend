@@ -19,7 +19,7 @@ export default function VisualizationPricingPage() {
       <Typography variant="h4">Pricing</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#10 How much of the papers is open access and how did the share develop?"
+          title="#10 How many of the papers are open access and how did the share develop?"
           flourishId="3092096"
         ></Question>
         <Divider></Divider>

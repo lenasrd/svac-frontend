@@ -103,14 +103,27 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#30 Do authors prefer to work with people from the same university?"
+          title="#30 Do authors rather work with people from the same country?"
           flourishId="3194602"
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              A higher number indicates cooperations across multiple
+              institutions.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
-          title="#31 Do authors prefer to work with people from the same country?"
+          title="#31 Do authors rather work with people from the same institution?"
           flourishId="3194658"
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              A higher number indicates cooperations across multiple countries.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
           title="#32 Which authors' papers have been downloaded the most?"

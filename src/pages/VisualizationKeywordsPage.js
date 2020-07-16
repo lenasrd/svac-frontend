@@ -51,18 +51,30 @@ export default function VisualizationKeywordsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#25 Do the listed keywords appear in the introduction or abstract of a paper?"
+          title="#25 Do the listed keywords appear in the introduction or abstract?"
           flourishId="3124774"
-          secondFlourishId="3125623"
-        ></Question>
+          secondFlourishId="3200456"
+        >
+          <InfoBox>
+            <Typography>
+              The keywords of each book/paper were searched in the
+              introduction/abstract. If, for example, only 5 out of 10 keywords
+              could be found, the percentage would be 50%. 100% means all
+              keywords were also present.
+              <br />
+              Papers also contain auto generated keywords. The data was
+              visualized separately for those.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
-          title="#34 What are the most used keywords for Open Access and for paid papers? Are they different?"
+          title="#34 What are the most used keywords for open access and for paid papers? Are they different?"
           flourishId="3126947"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#52 How many keywords are used to describe papers?"
+          title="#52 How many keywords are used to describe books and papers?"
           flourishId="3125051"
           secondFlourishId="3124894"
         ></Question>

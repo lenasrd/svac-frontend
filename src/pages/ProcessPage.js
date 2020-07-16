@@ -26,11 +26,14 @@ export default function ProcessPage() {
             <strong>Data collection analysis</strong>
             <br />
             The first step was to analyze how to locate all the data that needs
-            to be collected for the project. Starting with the root page for the
-            “Lecture Notes in Computer Science” series, all links to all books
-            from the over 600 pages in the listing had to be collected. For each
-            book the process was repeated in order to get all links to its
-            papers.
+            to be collected for the project. Starting with the{" "}
+            <a href="https://link.springer.com/search/page/1?facet-series=%22558%22&facet-content-type=%22Book%22">
+              root page
+            </a>{" "}
+            for the “Lecture Notes in Computer Science” series, all links to all
+            books from the over 600 pages in the listing had to be collected.
+            For each book the process was repeated in order to get all links to
+            its papers.
           </Typography>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -43,14 +46,14 @@ export default function ProcessPage() {
             <br />
             The Springer-Verlag does not offer a structured data set for the
             target books and papers so the information had to be scraped from
-            each web page. The scraping was done using the python framework
-            scrapy.
+            each web page. The scraping was done using the python framework{" "}
+            <a href="https://scrapy.org/">scrapy</a>.
             <br />
             <br />
             To assist further processing steps the data was first trimmed to
             remove all unwanted characters.
             <br />
-            <code>” 11 June 1997, ” => 1 June 1997</code>
+            <code>” 11 June 1997, ” => 11 June 1997</code>
             <br />
             <br />
             Then the different date and number formats could be parsed.

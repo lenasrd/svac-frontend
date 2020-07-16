@@ -47,7 +47,7 @@ export default function VisualizationUniversitiesPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#28 What are the institutions that have the most authors?"
+          title="#28 Which are the institutions with the most authors?"
           flourishId="3114554"
           iframeHeight="1400px"
         ></Question>
