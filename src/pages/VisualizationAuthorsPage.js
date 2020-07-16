@@ -46,9 +46,9 @@ export default function VisualizationAuthorsPage() {
         <Divider></Divider>
         <Question title="#29" flourishId="3080892"></Question>
         <Divider></Divider>
-        <Question title="#30" flourishId="3189310"></Question>
+        <Question title="#30" flourishId="3194602"></Question>
         <Divider></Divider>
-        <Question title="#31" flourishId="3189426"></Question>
+        <Question title="#31" flourishId="3194658"></Question>
         <Divider></Divider>
         <Question title="#32" imageSrc={question32}></Question>
       </div>
