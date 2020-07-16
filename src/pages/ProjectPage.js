@@ -15,11 +15,15 @@ export default function ProjectPage() {
 
   return (
     <main>
-      <img src={project_visual} className={classes.visual}></img>
+      <img
+        src={project_visual}
+        className={classes.visual}
+        alt="data visual representing the project"
+      ></img>
       <Typography variant="h4">Project</Typography>
       <Typography>
-        In computer science, an estimation of hundreds of thousands to millions
-        of scientific publications are published every year. Even though the
+        In computer science, an estimation of hundreds of thousands of
+        scientific publications are published every year. Even though the
         content itself is usually placed behind a payment barrier, some metadata
         are freely accessible, such as title, abstract, keywords of the
         publication, name of the conference as well as names and universities of
