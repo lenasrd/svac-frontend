@@ -20,7 +20,11 @@ import { ThemeProvider } from "@material-ui/styles";
 
 import ProjectPage from "./pages/ProjectPage";
 import LimitationsPage from "./pages/LimitationsPage";
-import AuthorsVisualizationPage from "./pages/AuthorsVisualizationPage";
+import VisualizationAuthorsPage from "./pages/VisualizationAuthorsPage";
+import VisualizationCountriesCitiesPage from "./pages/VisualizationCountriesCitiesPage";
+import VisualizationKeywordsPage from "./pages/VisualizationKeywordsPage";
+import VisualizationPaperMetaDataPage from "./pages/VisualizationPaperMetaDataPage";
+
 import { Typography } from "@material-ui/core";
 
 const drawerWidth = 240;
@@ -153,33 +157,33 @@ export default function DrawerMenu() {
                   button
                   className={classes.nested}
                   component={Link}
-                  to={"/authors-visualizations"}
+                  to={"/visualizations-authors"}
                 >
                   <ListItemText primary="Authors" />
                 </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Universities" />
+                <ListItem
+                  button
+                  className={classes.nested}
+                  component={Link}
+                  to={"/visualizations-countries-cities"}
+                >
+                  <ListItemText primary="Countries &amp; cities" />
                 </ListItem>
-                <ListItem button className={classes.nested}>
+                <ListItem
+                  button
+                  className={classes.nested}
+                  component={Link}
+                  to={"/visualizations-keywords"}
+                >
                   <ListItemText primary="Keywords" />
                 </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Downloads" />
-                </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Keywords" />
-                </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Abstract" />
-                </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Specialization" />
-                </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Paper meta" />
-                </ListItem>
-                <ListItem button className={classes.nested}>
-                  <ListItemText primary="Book meta" />
+                <ListItem
+                  button
+                  className={classes.nested}
+                  component={Link}
+                  to={"/visualizations-paper-meta-data"}
+                >
+                  <ListItemText primary="Paper meta data" />
                 </ListItem>
               </List>
             </div>
@@ -189,8 +193,23 @@ export default function DrawerMenu() {
             <Route exact path="/limitations" component={LimitationsPage} />
             <Route
               exact
-              path="/authors-visualizations"
-              component={AuthorsVisualizationPage}
+              path="/visualizations-authors"
+              component={VisualizationAuthorsPage}
+            />
+            <Route
+              exact
+              path="/visualizations-countries-cities"
+              component={VisualizationCountriesCitiesPage}
+            />
+            <Route
+              exact
+              path="/visualizations-keywords"
+              component={VisualizationKeywordsPage}
+            />
+            <Route
+              exact
+              path="/visualizations-paper-meta-data"
+              component={VisualizationPaperMetaDataPage}
             />
             <Route exact path="/">
               <Redirect to="/project" />

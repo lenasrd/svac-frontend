@@ -17,10 +17,22 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   highlightAnimated: {
-    color: "#35A9A0",
-    paddingRight: "0.1em",
+    backgroundColor: "#2171a1",
+    border: "none",
+    color: "white",
+    padding: "0.5em",
+    borderRadius: "5em",
+    fontSize: "1em",
     marginLeft: "0.5em",
-    fontStyle: "italic",
+  },
+  highlightInteractive: {
+    backgroundColor: "#35a9a0bb",
+    border: "none",
+    color: "white",
+    padding: "0.5em",
+    borderRadius: "5em",
+    fontSize: "1em",
+    marginLeft: "0.5em",
   },
   titleBox: {
     display: "flex",
@@ -33,6 +45,15 @@ export default function Question(props) {
   const handleChange = () => {
     setOpen((prev) => !prev);
   };
+  const iframe = "<iframe src='https://flo.uri.sh/visualisation/".concat(
+    props.flourishId,
+    "/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>"
+  );
+  const secondIframe = "<iframe src='https://flo.uri.sh/visualisation/".concat(
+    props.secondFlourishId,
+    "/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>"
+  );
+  const altText = "Visualization of".concat(props.title);
 
   return (
     <main>
@@ -44,11 +65,35 @@ export default function Question(props) {
               animated
             </Typography>
           )}
+          {props.interactive && (
+            <Typography variant="h5" className={classes.highlightInteractive}>
+              interactive
+            </Typography>
+          )}
         </div>
         {open ? <ExpandLessIcon /> : <ExpandMoreIcon />}
       </div>
       <div>
-        <Collapse in={open}>{props.children}</Collapse>
+        <Collapse in={open}>
+          {props.children}
+          {props.flourishId && (
+            <div
+              dangerouslySetInnerHTML={{
+                __html: iframe,
+              }}
+            />
+          )}
+          {props.secondFlourishId && (
+            <div
+              dangerouslySetInnerHTML={{
+                __html: secondIframe,
+              }}
+            />
+          )}
+          {props.imageSrc && (
+            <img src={props.imageSrc} width="100%" alt={altText} />
+          )}
+        </Collapse>
       </div>
     </main>
   );
