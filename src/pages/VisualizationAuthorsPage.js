@@ -23,7 +23,6 @@ export default function VisualizationAuthorsPage() {
           title="#12 Which are the top 100 authors in terms of the number of their papers?"
           flourishId="3139343"
           iframeHeight="2500px"
-          info="This is a descriptive text about visualization #12 that briefly explains what is displayed here."
         ></Question>
         <Divider></Divider>
         <Question title="#19 What is the distribution of the collaborations of authors?">
@@ -108,8 +107,7 @@ export default function VisualizationAuthorsPage() {
         >
           <InfoBox>
             <Typography>
-              A higher number indicates cooperations across multiple
-              institutions.
+              A higher number indicates cooperations across multiple countries.
             </Typography>
           </InfoBox>
         </Question>
@@ -120,7 +118,8 @@ export default function VisualizationAuthorsPage() {
         >
           <InfoBox>
             <Typography>
-              A higher number indicates cooperations across multiple countries.
+              A higher number indicates cooperations across multiple
+              institutions.
             </Typography>
           </InfoBox>
         </Question>
