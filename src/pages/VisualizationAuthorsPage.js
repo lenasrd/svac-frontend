@@ -23,35 +23,53 @@ export default function VisualizationAuthorsPage() {
       </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#12"
+          title="#12 Which are the top 100 authors in terms of the number of their publications?"
           flourishId="3139343"
           iframeHeight="2500px"
           info="This is a descriptive text about visualization #12 that briefly explains what is displayed here."
         ></Question>
         <Divider></Divider>
-        <Question title="#19" flourishId="2993152"></Question>
+        <Question
+          title="#19 What is the distribution of the collaborations of authors?"
+          flourishId="2993152"
+        ></Question>
         <Divider></Divider>
         <Question
-          title="#20"
+          title="#20 Which are the top 100 papers in terms of the count of authors involved?"
           flourishId="3137839"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#21"
+          title="#21 Which are the top 100 authors in terms of the number of downloads?"
           flourishId="3139367"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
-        <Question title="#23" flourishId="3126620"></Question>
+        <Question
+          title="#23 What is the distribution of the number of authors in all publications?"
+          flourishId="3126620"
+        ></Question>
         <Divider></Divider>
-        <Question title="#29" flourishId="3080892"></Question>
+        <Question
+          title="#29 What is the distribution between the number of authors of a publication and it's number of downloads?"
+          flourishId="3080892"
+        ></Question>
         <Divider></Divider>
-        <Question title="#30" flourishId="3194602"></Question>
+        <Question
+          title="#30 Do authors prefer to work with people from the same university?"
+          flourishId="3194602"
+        ></Question>
         <Divider></Divider>
-        <Question title="#31" flourishId="3194658"></Question>
+        <Question
+          title="#31 Do authors prefer to work with people from the same country?"
+          flourishId="3194658"
+        ></Question>
         <Divider></Divider>
-        <Question title="#32" imageSrc={question32}></Question>
+        <Question
+          title="#32 Which authors' publications have been downloaded the most?"
+          imageSrc={question32}
+        ></Question>
       </div>
     </main>
   );

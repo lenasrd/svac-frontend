@@ -22,11 +22,21 @@ export default function VisualizationKeywordsPage() {
         dataset.
       </Typography>
       <div className={classes.questionList}>
-        <Question title="#2" imageSrc={question2}></Question>
+        <Question
+          title="#2 Which keywords have been used most commonly?"
+          imageSrc={question2}
+        ></Question>
         <Divider></Divider>
-        <Question title="#4" flourishId="3030521" animated={true}></Question>
+        <Question
+          title="#4 How have the most popular keywords developed?"
+          flourishId="3030521"
+          animated={true}
+        ></Question>
         <Divider></Divider>
-        <Question title="#6" interactive={true}>
+        <Question
+          title="#6 Which keywords occur together in publications?"
+          interactive={true}
+        >
           <div
             dangerouslySetInnerHTML={{
               __html:
@@ -35,18 +45,24 @@ export default function VisualizationKeywordsPage() {
           />
         </Question>
         <Divider></Divider>
-        <Question title="#8" flourishId="3189384"></Question>
+        <Question
+          title="#8 How have the most commonly used keywords developed?"
+          flourishId="3189384"
+        ></Question>
         <Divider></Divider>
         <Question
-          title="#25"
+          title="#25 Do the listed keywords appear in the introduction or abstract of a publication?"
           flourishId="3124774"
           secondFlourishId="3125623"
         ></Question>
         <Divider></Divider>
-        <Question title="#34" flourishId="3126947"></Question>
+        <Question
+          title="#34 What are the most used keywords for Open Access and for paid publications? Are they different?"
+          flourishId="3126947"
+        ></Question>
         <Divider></Divider>
         <Question
-          title="#52"
+          title="#52 How many keywords are used to describe publications?"
           flourishId="3125051"
           secondFlourishId="3124894"
         ></Question>

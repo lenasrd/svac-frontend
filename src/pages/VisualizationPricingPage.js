@@ -21,9 +21,15 @@ export default function VisualizationPricingPage() {
         dataset.
       </Typography>
       <div className={classes.questionList}>
-        <Question title="#10" flourishId="3092096"></Question>
+        <Question
+          title="#10 How much of the publications is open access and how did the share develop?"
+          flourishId="3092096"
+        ></Question>
         <Divider></Divider>
-        <Question title="#24" flourishId="3106275"></Question>
+        <Question
+          title="#24 Is the price of a book related to the page count?"
+          flourishId="3106275"
+        ></Question>
       </div>
     </main>
   );
