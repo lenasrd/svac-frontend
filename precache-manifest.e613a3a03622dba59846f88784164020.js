@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6869bf0353e2fdb84d8dab84aaca065",
+    "revision": "3e4d0170e2788a84c4028d199e70b742",
     "url": "/svac-frontend/index.html"
   },
   {
-    "revision": "21bc66cbfcaab34bf49f",
+    "revision": "4d01311a7edf28b21fac",
     "url": "/svac-frontend/static/css/2.ac1ab58b.chunk.css"
   },
   {
-    "revision": "9369bd1f92f7dd5b48fc",
+    "revision": "5565a5ba939ceee507a2",
     "url": "/svac-frontend/static/css/main.d5e6449a.chunk.css"
   },
   {
-    "revision": "21bc66cbfcaab34bf49f",
-    "url": "/svac-frontend/static/js/2.e989e294.chunk.js"
+    "revision": "4d01311a7edf28b21fac",
+    "url": "/svac-frontend/static/js/2.ca83cafc.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/svac-frontend/static/js/2.e989e294.chunk.js.LICENSE.txt"
+    "url": "/svac-frontend/static/js/2.ca83cafc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9369bd1f92f7dd5b48fc",
-    "url": "/svac-frontend/static/js/main.6e996826.chunk.js"
+    "revision": "5565a5ba939ceee507a2",
+    "url": "/svac-frontend/static/js/main.6b018d06.chunk.js"
   },
   {
     "revision": "a54ebbe96be8ef05839e",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0525dfd3550e9beb4cee51a315f5c939",
     "url": "/svac-frontend/static/media/question2.0525dfd3.png"
+  },
+  {
+    "revision": "5b93adc4fe6f8512fbf7ddb00c29c65f",
+    "url": "/svac-frontend/static/media/question24.5b93adc4.png"
   },
   {
     "revision": "332ac57b457a7e24c27dfc79c198462a",
