@@ -29,6 +29,7 @@ import VisualizationUniversitiesPage from "./pages/VisualizationUniversitiesPage
 import ProcessPage from "./pages/ProcessPage";
 
 import { Typography } from "@material-ui/core";
+import LegalPage from "./pages/LegalPage";
 
 const drawerWidth = 240;
 
@@ -70,6 +71,10 @@ const useStyles = makeStyles((theme) => ({
   drawerContainer: {
     overflow: "auto",
     marginTop: "6em",
+    justifyContent: "space-between",
+    height: "100%",
+    display: "flex",
+    flexFlow: "column",
   },
   content: {
     flexGrow: 1,
@@ -151,15 +156,6 @@ export default function DrawerMenu() {
                   <ListItemText primary="Limitations" />
                 </ListItem>
 
-                <ListItem
-                  button
-                  className={classes.nested}
-                  component={Link}
-                  to={"/imprint"}
-                >
-                  <ListItemText primary="Imprint" />
-                </ListItem>
-
                 <ListItem key="About">
                   <ListItemText>
                     <Typography className={classes.drawerHeadline}>
@@ -222,6 +218,10 @@ export default function DrawerMenu() {
                   <ListItemText primary="Universities" />
                 </ListItem>
               </List>
+
+              <ListItem button component={Link} to={"/legal"}>
+                <ListItemText>Legal</ListItemText>
+              </ListItem>
             </div>
           </Drawer>
           <main className={classes.content}>
@@ -258,6 +258,8 @@ export default function DrawerMenu() {
               path="/visualizations-universities"
               component={VisualizationUniversitiesPage}
             />
+
+            <Route exact path="/legal" component={LegalPage} />
             <Route exact path="/">
               <Redirect to="/project" />
             </Route>
