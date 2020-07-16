@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import { Typography } from "@material-ui/core";
+import InfoBox from "./InfoBox";
 
 const useStyles = makeStyles((theme) => ({
   questionPreview: {
@@ -28,12 +29,6 @@ const useStyles = makeStyles((theme) => ({
   },
   titleBox: {
     display: "flex",
-  },
-  infoBox: {
-    padding: "0.8em",
-    background: "#288BA222",
-    marginBottom: "5px",
-    border: "1px solid #288BA255",
   },
 }));
 
@@ -84,9 +79,7 @@ export default function Question(props) {
       <div>
         <Collapse in={open}>
           {props.children}
-          {props.info && (
-            <Typography className={classes.infoBox}>{props.info}</Typography>
-          )}
+          {props.info && <InfoBox>{props.info}</InfoBox>}
           {props.flourishId && (
             <div
               dangerouslySetInnerHTML={{

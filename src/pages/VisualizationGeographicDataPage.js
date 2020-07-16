@@ -3,6 +3,7 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
+import InfoBox from "../InfoBox";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -25,7 +26,19 @@ export default function VisualizationGeographicDataPage() {
           title="#1 Which countries have the most publications?"
           flourishId="3072954"
           interactive={true}
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              This map shows the total number of publications per country. A
+              publication is assigned to a country if at least one of the
+              authors's institutions is in this country.
+              <br />
+              <strong>Limitations:</strong> Some publications might not count
+              into the total, if they can not be mapped due to missing country
+              information in the data set of the associated institution.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
           title="#5 How much and with which keywords have german institutions been publishing?"

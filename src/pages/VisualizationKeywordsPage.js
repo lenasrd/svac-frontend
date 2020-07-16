@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
 import question2 from "../images/question2.png";
+import InfoBox from "../InfoBox";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -23,13 +24,10 @@ export default function VisualizationKeywordsPage() {
       </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#2 Which keywords have been used most commonly?"
-          imageSrc={question2}
-        ></Question>
-        <Divider></Divider>
-        <Question
-          title="#4 How have the most popular keywords developed?"
+          title="#2 How have the most commonly used keywords developed?"
           flourishId="3030521"
+          secondFlourishId="3189384"
+          imageSrc={question2}
           animated={true}
         ></Question>
         <Divider></Divider>
@@ -37,6 +35,18 @@ export default function VisualizationKeywordsPage() {
           title="#6 Which keywords occur together in publications?"
           interactive={true}
         >
+          <InfoBox>
+            <Typography>
+              A Keyword-Cloud-Cluster that visualizes the relation between
+              keywords that appear together in publications and their density.
+              <br />
+              <strong>Limitations:</strong> The map shows only keywords that
+              appear at least in 200 different publications and have at least
+              one collaboration to another keyword with at least 15 occurences
+              (the two keywords appear together in at least 15 different
+              publications).
+            </Typography>
+          </InfoBox>
           <div
             dangerouslySetInnerHTML={{
               __html:
@@ -44,11 +54,6 @@ export default function VisualizationKeywordsPage() {
             }}
           />
         </Question>
-        <Divider></Divider>
-        <Question
-          title="#8 How have the most commonly used keywords developed?"
-          flourishId="3189384"
-        ></Question>
         <Divider></Divider>
         <Question
           title="#25 Do the listed keywords appear in the introduction or abstract of a publication?"

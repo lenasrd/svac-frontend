@@ -22,7 +22,7 @@ export default function VisualizationUniversitiesPage() {
       </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#7 How have the top publishing institutions developed?"
+          title="#7 Which institutions have published the most?"
           flourishId="3188543"
           iframeHeight="2500px"
         ></Question>

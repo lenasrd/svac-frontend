@@ -3,6 +3,7 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
+import InfoBox from "../InfoBox";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -24,7 +25,15 @@ export default function VisualizationPaperMetaDataPage() {
         <Question
           title="#22 What is the distribution between the length of the abstract of a publication and its number of downloads?"
           flourishId="3080901"
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              This scatterplot shows the distribution between the length of the
+              abstract of a publication on the x-axis and its number of
+              downloads on the y-axis.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
           title="#33 Did the avarage length of papers change over time?"
