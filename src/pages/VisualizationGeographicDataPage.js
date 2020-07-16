@@ -3,7 +3,6 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
-import question13 from "../images/question13.png";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -33,7 +32,7 @@ export default function VisualizationGeographicDataPage() {
           animated={true}
         ></Question>
         <Divider></Divider>
-        <Question title="#13" imageSrc={question13}></Question>
+        <Question title="#13" flourishId="3196692"></Question>
         <Divider></Divider>
         <Question title="#14" flourishId="3118439" animated={true}></Question>
         <Divider></Divider>

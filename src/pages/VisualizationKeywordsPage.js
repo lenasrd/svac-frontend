@@ -24,7 +24,7 @@ export default function VisualizationKeywordsPage() {
       <div className={classes.questionList}>
         <Question title="#2" imageSrc={question2}></Question>
         <Divider></Divider>
-        <Question title="#4" flourishId="3125292" interactive={true}></Question>
+        <Question title="#4" flourishId="3030521" animated={true}></Question>
         <Divider></Divider>
         <Question title="#6" interactive={true}>
           <div
