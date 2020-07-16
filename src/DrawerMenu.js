@@ -25,6 +25,7 @@ import VisualizationCountriesCitiesPage from "./pages/VisualizationCountriesCiti
 import VisualizationKeywordsPage from "./pages/VisualizationKeywordsPage";
 import VisualizationPaperMetaDataPage from "./pages/VisualizationPaperMetaDataPage";
 import VisualizationPricingPage from "./pages/VisualizationPricingPage";
+import VisualizationUniversitiesPage from "./pages/VisualizationUniversitiesPage";
 
 import { Typography } from "@material-ui/core";
 
@@ -194,6 +195,14 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Pricing" />
                 </ListItem>
+                <ListItem
+                  button
+                  className={classes.nested}
+                  component={Link}
+                  to={"/visualizations-universities"}
+                >
+                  <ListItemText primary="Universities" />
+                </ListItem>
               </List>
             </div>
           </Drawer>
@@ -224,6 +233,11 @@ export default function DrawerMenu() {
               exact
               path="/visualizations-pricing"
               component={VisualizationPricingPage}
+            />
+            <Route
+              exact
+              path="/visualizations-universities"
+              component={VisualizationUniversitiesPage}
             />
             <Route exact path="/">
               <Redirect to="/project" />
