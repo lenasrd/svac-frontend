@@ -22,6 +22,11 @@ export default function ProjectPage() {
       ></img>
       <Typography variant="h4">Project</Typography>
       <Typography>
+        Visualization and Analysis of Computer Science Publication Data is a
+        data science learning project as part of the summer term 2020 in the
+        masters program Internationale Medieninformatik (IMI) at HTW Berlin.
+        <br />
+        <br />
         In computer science, an estimation of hundreds of thousands of
         scientific publications are published every year. Even though the
         content itself is usually placed behind a payment barrier, some metadata
