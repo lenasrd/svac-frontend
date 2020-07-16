@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2582379dc661da86e55afa26d63dfb1a",
+    "revision": "0a51a467e27122a4acea3d755e742b87",
     "url": "/svac-frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/svac-frontend/static/css/2.ac1ab58b.chunk.css"
   },
   {
-    "revision": "8d67654896a292474874",
+    "revision": "802b57ba82d33952b094",
     "url": "/svac-frontend/static/css/main.d5e6449a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/svac-frontend/static/js/2.130c903a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d67654896a292474874",
-    "url": "/svac-frontend/static/js/main.522b0825.chunk.js"
+    "revision": "802b57ba82d33952b094",
+    "url": "/svac-frontend/static/js/main.eb94621d.chunk.js"
   },
   {
     "revision": "a54ebbe96be8ef05839e",
