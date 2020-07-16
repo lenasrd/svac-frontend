@@ -22,7 +22,17 @@ export default function VisualizationPaperMetaDataPage() {
         In this section, we will display our findings related to paper meta data
         in our dataset.
       </Typography>
-      <div className={classes.questionList}></div>
+      <div className={classes.questionList}>
+        <Question title="#22" flourishId="3080901"></Question>
+        <Divider></Divider>
+        <Question title="#33" flourishId="3126640"></Question>
+        <Divider></Divider>
+        <Question
+          title="#35"
+          flourishId="3148146"
+          secondFlourishId="3148165"
+        ></Question>
+      </div>
     </main>
   );
 }

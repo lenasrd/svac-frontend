@@ -44,8 +44,6 @@ export default function VisualizationKeywordsPage() {
           secondFlourishId="3125623"
         ></Question>
         <Divider></Divider>
-        <Question title="#26" flourishId="3119439"></Question>
-        <Divider></Divider>
         <Question title="#34" flourishId="3126947"></Question>
         <Divider></Divider>
         <Question
