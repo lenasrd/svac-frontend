@@ -40,14 +40,38 @@ export default function VisualizationGeographicDataPage() {
           title="#5 How much and with which keywords have german institutions been publishing?"
           flourishId="3073035"
           interactive={true}
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              The data points on this map each represent an institution located
+              in Germany. The size visualizes the number of pubications that
+              this institution has published. On hover the three most popular
+              keywords in said papers are displayed.
+              <br />
+              <strong>Limitations:</strong> It is possible that positions
+              displayed on the map are not correct. This may be due to
+              inaccurate or incomplete data. Some institutions have been
+              localized only by the indicated city, so that several institutions
+              may be displayed in the same position. In some cases several data
+              points of the same institution may be displayed. In these cases
+              the data could not be mapped.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
           title="#11 How has the annual number of papers per university developed?"
           flourishId="2905295"
           interactive={true}
           animated={true}
-        ></Question>
+        >
+          <InfoBox>
+            <Typography>
+              This map shows the annual distribution of papers of all given
+              institutions worldwide.
+            </Typography>
+          </InfoBox>
+        </Question>
         <Divider></Divider>
         <Question
           title="#13 How has the number of papers published worldwide developed?"
