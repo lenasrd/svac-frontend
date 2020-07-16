@@ -26,6 +26,7 @@ import VisualizationKeywordsPage from "./pages/VisualizationKeywordsPage";
 import VisualizationPaperMetaDataPage from "./pages/VisualizationPaperMetaDataPage";
 import VisualizationPricingPage from "./pages/VisualizationPricingPage";
 import VisualizationUniversitiesPage from "./pages/VisualizationUniversitiesPage";
+import ProcessPage from "./pages/ProcessPage";
 
 import { Typography } from "@material-ui/core";
 
@@ -131,6 +132,16 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Project" />
                 </ListItem>
+
+                <ListItem
+                  button
+                  className={classes.nested}
+                  component={Link}
+                  to={"/process"}
+                >
+                  <ListItemText primary="Process" />
+                </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -139,6 +150,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Limitations" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -155,6 +167,7 @@ export default function DrawerMenu() {
                     </Typography>
                   </ListItemText>
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -163,6 +176,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Authors" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -171,6 +185,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Geographic data" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -179,6 +194,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Keywords" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -187,6 +203,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Paper metadata" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -195,6 +212,7 @@ export default function DrawerMenu() {
                 >
                   <ListItemText primary="Pricing" />
                 </ListItem>
+
                 <ListItem
                   button
                   className={classes.nested}
@@ -208,6 +226,7 @@ export default function DrawerMenu() {
           </Drawer>
           <main className={classes.content}>
             <Route exact path="/project" component={ProjectPage} />
+            <Route exact path="/process" component={ProcessPage} />
             <Route exact path="/limitations" component={LimitationsPage} />
             <Route
               exact
