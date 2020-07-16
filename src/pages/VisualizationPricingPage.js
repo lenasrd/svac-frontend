@@ -3,6 +3,7 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
+import question24 from "../images/question24.png";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -16,19 +17,15 @@ export default function VisualizationPricingPage() {
   return (
     <main>
       <Typography variant="h4">Pricing</Typography>
-      <Typography>
-        In this section, we will display our findings related to pricing in our
-        dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#10 How much of the publications is open access and how did the share develop?"
+          title="#10 How much of the papers is open access and how did the share develop?"
           flourishId="3092096"
         ></Question>
         <Divider></Divider>
         <Question
           title="#24 Is the price of a book related to the page count?"
-          flourishId="3106275"
+          imageSrc={question24}
         ></Question>
       </div>
     </main>

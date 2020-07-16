@@ -17,24 +17,20 @@ export default function VisualizationGeographicDataPage() {
   return (
     <main>
       <Typography variant="h4">Geographic data</Typography>
-      <Typography>
-        In this section, we will display our findings related to geographic data
-        in our dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#1 Which countries have the most publications?"
+          title="#1 Which countries have published the most papers?"
           flourishId="3072954"
           interactive={true}
         >
           <InfoBox>
             <Typography>
-              This map shows the total number of publications per country. A
-              publication is assigned to a country if at least one of the
-              authors's institutions is in this country.
+              This map shows the total number of papers per country. A paper is
+              assigned to a country if at least one of the author's institutions
+              is in this country.
               <br />
-              <strong>Limitations:</strong> Some publications might not count
-              into the total, if they can not be mapped due to missing country
+              <strong>Limitations:</strong> Some papers might not count into the
+              total, if they can not be mapped due to missing country
               information in the data set of the associated institution.
             </Typography>
           </InfoBox>
@@ -47,14 +43,14 @@ export default function VisualizationGeographicDataPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#11 How has the annual number of publications per university developed?"
+          title="#11 How has the annual number of papers per university developed?"
           flourishId="2905295"
           interactive={true}
           animated={true}
         ></Question>
         <Divider></Divider>
         <Question
-          title="#13 How has the total number of worldwide publications developed?"
+          title="#13 How has the number of papers published worldwide developed?"
           flourishId="3196692"
         ></Question>
         <Divider></Divider>

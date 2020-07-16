@@ -18,10 +18,6 @@ export default function VisualizationKeywordsPage() {
   return (
     <main>
       <Typography variant="h4">Keywords</Typography>
-      <Typography>
-        In this section, we will display our findings related to keywords in our
-        dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
           title="#2 How have the most commonly used keywords developed?"
@@ -32,19 +28,18 @@ export default function VisualizationKeywordsPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#6 Which keywords occur together in publications?"
+          title="#6 Which keywords occur together in papers?"
           interactive={true}
         >
           <InfoBox>
             <Typography>
               A Keyword-Cloud-Cluster that visualizes the relation between
-              keywords that appear together in publications and their density.
+              keywords that appear together in papers and their density.
               <br />
               <strong>Limitations:</strong> The map shows only keywords that
-              appear at least in 200 different publications and have at least
-              one collaboration to another keyword with at least 15 occurences
-              (the two keywords appear together in at least 15 different
-              publications).
+              appear at least in 200 different papers and have at least one
+              collaboration to another keyword with at least 15 occurences (the
+              two keywords appear together in at least 15 different papers).
             </Typography>
           </InfoBox>
           <div
@@ -56,18 +51,18 @@ export default function VisualizationKeywordsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#25 Do the listed keywords appear in the introduction or abstract of a publication?"
+          title="#25 Do the listed keywords appear in the introduction or abstract of a paper?"
           flourishId="3124774"
           secondFlourishId="3125623"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#34 What are the most used keywords for Open Access and for paid publications? Are they different?"
+          title="#34 What are the most used keywords for Open Access and for paid papers? Are they different?"
           flourishId="3126947"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#52 How many keywords are used to describe publications?"
+          title="#52 How many keywords are used to describe papers?"
           flourishId="3125051"
           secondFlourishId="3124894"
         ></Question>

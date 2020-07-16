@@ -17,20 +17,16 @@ export default function VisualizationPaperMetaDataPage() {
   return (
     <main>
       <Typography variant="h4">Paper metadata</Typography>
-      <Typography>
-        In this section, we will display our findings related to paper meta data
-        in our dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#22 What is the distribution between the length of the abstract of a publication and its number of downloads?"
+          title="#22 What is the distribution between the length of the abstract of a paper and its number of downloads?"
           flourishId="3080901"
         >
           <InfoBox>
             <Typography>
-              This scatterplot shows the distribution between the length of the
-              abstract of a publication on the x-axis and its number of
-              downloads on the y-axis.
+              This scatter plot shows the distribution between the length of the
+              abstract of a paper on the x-axis and its number of downloads on
+              the y-axis.
             </Typography>
           </InfoBox>
         </Question>

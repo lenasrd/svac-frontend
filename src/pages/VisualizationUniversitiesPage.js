@@ -16,10 +16,6 @@ export default function VisualizationUniversitiesPage() {
   return (
     <main>
       <Typography variant="h4">Universities</Typography>
-      <Typography>
-        In this section, we will display our findings related to universities in
-        our dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
           title="#7 Which institutions have published the most?"
@@ -34,7 +30,7 @@ export default function VisualizationUniversitiesPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#16 Which are the top 100 universities in terms of the number of downloads of their publications?"
+          title="#16 Which are the top 100 universities in terms of the number of downloads of their papers?"
           flourishId="3137816"
           iframeHeight="2500px"
         ></Question>

@@ -18,13 +18,9 @@ export default function VisualizationAuthorsPage() {
   return (
     <main>
       <Typography variant="h4">Authors</Typography>
-      <Typography>
-        In this section, we will display our findings related to the authors in
-        our dataset.
-      </Typography>
       <div className={classes.questionList}>
         <Question
-          title="#12 Which are the top 100 authors in terms of the number of their publications?"
+          title="#12 Which are the top 100 authors in terms of the number of their papers?"
           flourishId="3139343"
           iframeHeight="2500px"
           info="This is a descriptive text about visualization #12 that briefly explains what is displayed here."
@@ -52,15 +48,15 @@ export default function VisualizationAuthorsPage() {
               <ul>
                 <li>
                   Yi Mu and Willy Susilo, both from University of Wollongon,
-                  North Wollongon, Australia with 91 joint publications
+                  North Wollongon, Australia with 91 joint papers
                 </li>
                 <li>
                   Pew-Thian Yap and Dinggang Shen, both from University of North
-                  Carolina, Greensboro, USA with 59 joint publications
+                  Carolina, Greensboro, USA with 59 joint papers
                 </li>
                 <li>
                   Xilin Chen and Shiguang Shan, both from Chinese Academy of
-                  Science, Hefei, China with 57 joint publications
+                  Science, Hefei, China with 57 joint papers
                 </li>
               </ul>
             </Typography>
@@ -80,28 +76,28 @@ export default function VisualizationAuthorsPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#23 What is the distribution of the number of authors in all publications?"
+          title="#23 What is the distribution of the number of authors in all papers?"
           flourishId="3126620"
         >
           <InfoBox>
             <Typography>
               This bar chart shows the distribution of the number of authors in
-              all publications. The x-axis defines the number of authors from a
-              publication while the y-axis shows the number of publications
-              which were published by that number of authors.
+              all papers. The x-axis defines the number of authors from a paper
+              while the y-axis shows the number of papers which were published
+              by that number of authors.
             </Typography>
           </InfoBox>
         </Question>
         <Divider></Divider>
         <Question
-          title="#29 What is the distribution between the number of authors of a publication and it's number of downloads?"
+          title="#29 What is the distribution between the number of authors of a paper and its number of downloads?"
           flourishId="3080892"
         >
           <InfoBox>
             <Typography>
               This scatterplot shows the distribution between the number of
-              authors of a publication on the x-axis and its number of downloads
-              on the y-axis.
+              authors of a paper on the x-axis and its number of downloads on
+              the y-axis.
             </Typography>
           </InfoBox>
         </Question>
@@ -117,7 +113,7 @@ export default function VisualizationAuthorsPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#32 Which authors' publications have been downloaded the most?"
+          title="#32 Which authors' papers have been downloaded the most?"
           imageSrc={question32}
         ></Question>
       </div>
