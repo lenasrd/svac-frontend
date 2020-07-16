@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Question from "../Question";
 import question2 from "../images/question2.png";
-import question8 from "../images/question8.png";
 
 const useStyles = makeStyles((theme) => ({
   questionList: {
@@ -36,7 +35,7 @@ export default function VisualizationKeywordsPage() {
           />
         </Question>
         <Divider></Divider>
-        <Question title="#8" imageSrc={question8}></Question>
+        <Question title="#8" flourishId="3189384"></Question>
         <Divider></Divider>
         <Question
           title="#25"

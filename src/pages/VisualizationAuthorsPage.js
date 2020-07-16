@@ -30,9 +30,17 @@ export default function VisualizationAuthorsPage() {
         <Divider></Divider>
         <Question title="#19" flourishId="2993152"></Question>
         <Divider></Divider>
-        <Question title="#20" flourishId="3137839"></Question>
+        <Question
+          title="#20"
+          flourishId="3137839"
+          iframeHeight="2500px"
+        ></Question>
         <Divider></Divider>
-        <Question title="#21" flourishId="3139367"></Question>
+        <Question
+          title="#21"
+          flourishId="3139367"
+          iframeHeight="2500px"
+        ></Question>
         <Divider></Divider>
         <Question title="#23" flourishId="3126620"></Question>
         <Divider></Divider>

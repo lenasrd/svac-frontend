@@ -21,13 +21,25 @@ export default function VisualizationUniversitiesPage() {
         our dataset.
       </Typography>
       <div className={classes.questionList}>
-        <Question title="#7" flourishId="3188543"></Question>
+        <Question
+          title="#7"
+          flourishId="3188543"
+          iframeHeight="2500px"
+        ></Question>
         <Divider></Divider>
         <Question title="#9" flourishId="3189234"></Question>
         <Divider></Divider>
-        <Question title="#16" flourishId="3137816"></Question>
+        <Question
+          title="#16"
+          flourishId="3137816"
+          iframeHeight="2500px"
+        ></Question>
         <Divider></Divider>
-        <Question title="#28" flourishId="3114554"></Question>
+        <Question
+          title="#28"
+          flourishId="3114554"
+          iframeHeight="1400px"
+        ></Question>
       </div>
     </main>
   );
