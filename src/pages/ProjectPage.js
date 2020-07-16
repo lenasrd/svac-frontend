@@ -1,9 +1,21 @@
 import Typography from "@material-ui/core/Typography";
 import React from "react";
+import project_visual from "../images/project_visual.png";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  visual: {
+    width: "22em",
+    padding: "3em",
+  },
+}));
 
 export default function ProjectPage() {
+  const classes = useStyles();
+
   return (
     <main>
+      <img src={project_visual} className={classes.visual}></img>
       <Typography variant="h4">Project</Typography>
       <Typography>
         In computer science, an estimation of hundreds of thousands to millions
