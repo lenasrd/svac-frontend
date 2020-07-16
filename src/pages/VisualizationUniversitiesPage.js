@@ -27,7 +27,7 @@ export default function VisualizationUniversitiesPage() {
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
-        <Question title="#9" flourishId="3189234"></Question>
+        <Question title="#9" flourishId="3189234" interactive={true}></Question>
         <Divider></Divider>
         <Question
           title="#16"
