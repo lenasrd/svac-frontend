@@ -109,7 +109,8 @@ export default function VisualizationAuthorsPage() {
         >
           <InfoBox>
             <Typography>
-              A higher number indicates cooperations across multiple countries.
+              A higher number of countries indicates cooperations across
+              multiple countries.
             </Typography>
           </InfoBox>
         </Question>
@@ -120,8 +121,8 @@ export default function VisualizationAuthorsPage() {
         >
           <InfoBox>
             <Typography>
-              A higher number indicates cooperations across multiple
-              institutions.
+              A higher number of institutions indicates cooperations across
+              multiple institutions.
             </Typography>
           </InfoBox>
         </Question>
