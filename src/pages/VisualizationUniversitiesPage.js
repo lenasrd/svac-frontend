@@ -21,13 +21,13 @@ export default function VisualizationUniversitiesPage() {
       <Typography variant="h4">Universities</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#7 Which institutions have published the most?"
+          title="Which institutions have published the most?"
           flourishId="3188543"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#9 Which institutions have been collaborating?"
+          title="Which institutions have been collaborating?"
           flourishId="3189234"
           interactive={true}
         >
@@ -43,13 +43,13 @@ export default function VisualizationUniversitiesPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#16 Which are the top 100 universities in terms of the number of downloads of their papers?"
+          title="Which are the top 100 universities in terms of the number of downloads of their papers?"
           flourishId="3137816"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#28 Which are the institutions with the most authors?"
+          title="Which are the institutions with the most authors?"
           flourishId="3114554"
           iframeHeight="1400px"
         ></Question>

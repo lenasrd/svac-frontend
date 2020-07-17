@@ -21,7 +21,7 @@ export default function VisualizationGeographicDataPage() {
       <Typography variant="h4">Geographic data</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#1 Which countries have published the most papers?"
+          title="Which countries have published the most papers?"
           flourishId="3072954"
           interactive={true}
         >
@@ -39,7 +39,7 @@ export default function VisualizationGeographicDataPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#5 How much and with which keywords have german institutions been publishing?"
+          title="How much and with which keywords have german institutions been publishing?"
           flourishId="3073035"
           interactive={true}
         >
@@ -62,7 +62,7 @@ export default function VisualizationGeographicDataPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#11 How has the annual number of papers per university developed?"
+          title="How has the annual number of papers per university developed?"
           flourishId="2905295"
           interactive={true}
           animated={true}
@@ -76,23 +76,23 @@ export default function VisualizationGeographicDataPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#13 How has the number of papers published worldwide developed?"
+          title="How has the number of papers published worldwide developed?"
           flourishId="3196692"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#14 Which countries publish how much per year?"
+          title="Which countries publish how much per year?"
           flourishId="3118439"
           animated={true}
         ></Question>
         <Divider></Divider>
         <Question
-          title="#15 Which countries contributed to the 1000 most downloaded papers?"
+          title="Which countries contributed to the 1000 most downloaded papers?"
           flourishId="3107129"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#18 Which are the top three keywords per country?"
+          title="Which are the top three keywords per country?"
           flourishId="3125292"
           interactive={true}
         ></Question>

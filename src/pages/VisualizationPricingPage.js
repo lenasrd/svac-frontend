@@ -21,12 +21,12 @@ export default function VisualizationPricingPage() {
       <Typography variant="h4">Pricing</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#10 How many of the papers are open access and how did the share develop?"
+          title="How many of the papers are open access and how did the share develop?"
           flourishId="3092096"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#24 Is the price of a book related to the page count?"
+          title="Is the price of a book related to the page count?"
           imageSrc={question24}
         ></Question>
       </div>

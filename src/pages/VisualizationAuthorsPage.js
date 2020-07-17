@@ -22,12 +22,12 @@ export default function VisualizationAuthorsPage() {
       <Typography variant="h4">Authors</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#12 Which are the top 100 authors in terms of the number of their papers?"
+          title="Which are the top 100 authors in terms of the number of their papers?"
           flourishId="3139343"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
-        <Question title="#19 What is the distribution of the collaborations of authors?">
+        <Question title="What is the distribution of the collaborations of authors?">
           <InfoBox>
             <Typography>
               We investigated the distribution of how often authors have
@@ -65,19 +65,19 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#20 Which are the top 100 papers in terms of the count of authors involved?"
+          title="Which are the top 100 papers in terms of the count of authors involved?"
           flourishId="3137839"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#21 Which are the top 100 authors in terms of the number of downloads?"
+          title="Which are the top 100 authors in terms of the number of downloads?"
           flourishId="3139367"
           iframeHeight="2500px"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#23 What is the distribution of the number of authors in all papers?"
+          title="What is the distribution of the number of authors in all papers?"
           flourishId="3126620"
         >
           <InfoBox>
@@ -91,7 +91,7 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#29 What is the distribution between the number of authors of a paper and its number of downloads?"
+          title="What is the distribution between the number of authors of a paper and its number of downloads?"
           flourishId="3080892"
         >
           <InfoBox>
@@ -104,7 +104,7 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#30 Do authors rather work with people from the same country?"
+          title="Do authors rather work with people from the same country?"
           flourishId="3194602"
         >
           <InfoBox>
@@ -116,7 +116,7 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#31 Do authors rather work with people from the same institution?"
+          title="Do authors rather work with people from the same institution?"
           flourishId="3194658"
         >
           <InfoBox>
@@ -128,7 +128,7 @@ export default function VisualizationAuthorsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#32 Which authors' papers have been downloaded the most?"
+          title="Which authors' papers have been downloaded the most?"
           imageSrc={question32}
         ></Question>
       </div>

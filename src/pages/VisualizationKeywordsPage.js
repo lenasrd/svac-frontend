@@ -22,7 +22,7 @@ export default function VisualizationKeywordsPage() {
       <Typography variant="h4">Keywords</Typography>
       <div className={classes.questionList}>
         <Question
-          title="#2 How have the most commonly used keywords developed?"
+          title="How have the most commonly used keywords developed?"
           flourishId="3030521"
           secondFlourishId="3189384"
           imageSrc={question2}
@@ -30,7 +30,7 @@ export default function VisualizationKeywordsPage() {
         ></Question>
         <Divider></Divider>
         <Question
-          title="#6 Which keywords occur together in papers?"
+          title="Which keywords occur together in papers?"
           interactive={true}
         >
           <InfoBox>
@@ -53,7 +53,7 @@ export default function VisualizationKeywordsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#25 Do the listed keywords appear in the introduction or abstract?"
+          title="Do the listed keywords appear in the introduction or abstract?"
           flourishId="3124774"
           secondFlourishId="3200456"
         >
@@ -71,12 +71,12 @@ export default function VisualizationKeywordsPage() {
         </Question>
         <Divider></Divider>
         <Question
-          title="#34 What are the most used keywords for open access and for paid papers? Are they different?"
+          title="What are the most used keywords for open access and for paid papers? Are they different?"
           flourishId="3126947"
         ></Question>
         <Divider></Divider>
         <Question
-          title="#52 How many keywords are used to describe books and papers?"
+          title="How many keywords are used to describe books and papers?"
           flourishId="3125051"
           secondFlourishId="3124894"
         ></Question>
