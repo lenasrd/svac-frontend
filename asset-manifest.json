@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/svac-frontend/static/css/main.d5e6449a.chunk.css",
-    "main.js": "/svac-frontend/static/js/main.585cb5b2.chunk.js",
-    "main.js.map": "/svac-frontend/static/js/main.585cb5b2.chunk.js.map",
+    "main.js": "/svac-frontend/static/js/main.ee918030.chunk.js",
+    "main.js.map": "/svac-frontend/static/js/main.ee918030.chunk.js.map",
     "runtime-main.js": "/svac-frontend/static/js/runtime-main.14ae413e.js",
     "runtime-main.js.map": "/svac-frontend/static/js/runtime-main.14ae413e.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/svac-frontend/static/css/2.ac1ab58b.chunk.css",
     "static/js/2.7c3a7759.chunk.js": "/svac-frontend/static/js/2.7c3a7759.chunk.js",
     "static/js/2.7c3a7759.chunk.js.map": "/svac-frontend/static/js/2.7c3a7759.chunk.js.map",
     "index.html": "/svac-frontend/index.html",
-    "precache-manifest.30c542fc091fc33eb8fdc14d61911a61.js": "/svac-frontend/precache-manifest.30c542fc091fc33eb8fdc14d61911a61.js",
+    "precache-manifest.ac2b0a07e611b6fc801d17f25aa0fab4.js": "/svac-frontend/precache-manifest.ac2b0a07e611b6fc801d17f25aa0fab4.js",
     "service-worker.js": "/svac-frontend/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/svac-frontend/static/css/2.ac1ab58b.chunk.css.map",
     "static/css/main.d5e6449a.chunk.css.map": "/svac-frontend/static/css/main.d5e6449a.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.ac1ab58b.chunk.css",
     "static/js/2.7c3a7759.chunk.js",
     "static/css/main.d5e6449a.chunk.css",
-    "static/js/main.585cb5b2.chunk.js"
+    "static/js/main.ee918030.chunk.js"
   ]
 }
