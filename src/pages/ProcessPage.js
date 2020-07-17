@@ -161,7 +161,7 @@ export default function ProcessPage() {
             <br />
             <br />
             The intermediate data was stored in a read optimized MySQL database.
-            The total size of this data set is only 1GB.
+            The total size of this data set is only 1 GB.
           </Typography>
         </VerticalTimelineElement>
 
