@@ -161,8 +161,8 @@ export default function LimitationsPage() {
             subtitle is NULL: 477 (3,94%)
             <br />
             citations is NULL: 200 (1,65%)
-          </li>
-          <li>
+            <br />
+            <br />
             365799 Papers total
             <br />
             Papers with any number of NULL fields: 117446 (32,11%)
@@ -170,8 +170,8 @@ export default function LimitationsPage() {
             abstract is NULL: 7108 (1,94%)
             <br />
             citations is NULL: 114442 (31,29%)
-          </li>
-          <li>
+            <br />
+            <br />
             If values were not displayed on the web page of a book or paper even
             after repeated attempts the data remained null in the database.
             <br />
@@ -186,17 +186,16 @@ export default function LimitationsPage() {
             <br />
             city is NULL: 144767 (75,20%)
             <br />
-            country is NULL: 2436 (1,27%)
-          </li>
-          <li>
+            country is NULL: 2436 (1,27%) <br />
+            <br />
             For the majority of data there is no information available on the
             city.
             <br />
             <strong>Effect:</strong> Visualizations that display map data on a
             city level detail only take a quarter of the total data into
             account.
-          </li>
-          <li>
+            <br />
+            <br />
             A few Institutions do not list any information about their country
             and there was no search result available for them from any of the
             used geolocation services.

@@ -152,7 +152,7 @@ export default function ProcessPage() {
             </code>
             <br />
             <br />
-            The search results were be compared against previous results and
+            The search results were compared against previous results and
             allowed for reliable duplication checks - if there was a search
             result. You can find more details on issues regarding this in our
             limitations section. Using identical and Places API based matches,
