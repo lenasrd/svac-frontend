@@ -16,6 +16,7 @@ import StorageOutlinedIcon from "@material-ui/icons/StorageOutlined";
 import FilterNoneOutlinedIcon from "@material-ui/icons/FilterNoneOutlined";
 import ScatterPlotOutlinedIcon from "@material-ui/icons/ScatterPlotOutlined";
 import PanToolOutlinedIcon from "@material-ui/icons/PanToolOutlined";
+import FindInPageIcon from "@material-ui/icons/FindInPage";
 
 export default function ProcessPage() {
   return (
@@ -49,7 +50,7 @@ export default function ProcessPage() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#3DBCA1", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<FindInPageIcon />}
         >
           <Typography>
             <strong>Scraping the data</strong>
