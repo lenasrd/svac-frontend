@@ -15,9 +15,8 @@ export default function LegalPage() {
         <br />
         However it uses embedded graphics hosted by{" "}
         <a href="https://flourish.studio/">Flourish</a>. Please see their{" "}
-        <a href="https://flourish.studio/privacy/">
-          privacy page for more details on that.
-        </a>
+        <a href="https://flourish.studio/privacy/">privacy page</a> for more
+        details on that.
         <br />
         <br />
         <strong>Imprint</strong>

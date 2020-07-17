@@ -5,8 +5,17 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import CodeIcon from "@material-ui/icons/Code";
 import "./pages.css";
+
+import CodeIcon from "@material-ui/icons/Code";
+import InsertChartOutlinedIcon from "@material-ui/icons/InsertChartOutlined";
+import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
+import LanguageOutlinedIcon from "@material-ui/icons/LanguageOutlined";
+import ChatBubbleOutlineOutlinedIcon from "@material-ui/icons/ChatBubbleOutlineOutlined";
+import StorageOutlinedIcon from "@material-ui/icons/StorageOutlined";
+import FilterNoneOutlinedIcon from "@material-ui/icons/FilterNoneOutlined";
+import ScatterPlotOutlinedIcon from "@material-ui/icons/ScatterPlotOutlined";
+import PanToolOutlinedIcon from "@material-ui/icons/PanToolOutlined";
 
 export default function ProcessPage() {
   return (
@@ -20,7 +29,7 @@ export default function ProcessPage() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#3DBCA1", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<SearchOutlinedIcon />}
         >
           <Typography>
             <strong>Data collection analysis</strong>
@@ -80,7 +89,7 @@ export default function ProcessPage() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#35A9A0", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<FilterNoneOutlinedIcon />}
         >
           <Typography>
             <strong>Duplicates</strong>
@@ -154,7 +163,7 @@ export default function ProcessPage() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#35A9A0", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<StorageOutlinedIcon />}
         >
           <Typography>
             <strong>Storage</strong>
@@ -168,7 +177,7 @@ export default function ProcessPage() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#288BA2", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<ChatBubbleOutlineOutlinedIcon />}
         >
           <Typography>
             <strong>Translations</strong>
@@ -205,7 +214,7 @@ export default function ProcessPage() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#288BA2", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<LanguageOutlinedIcon />}
         >
           <Typography>
             <strong>Geocoding</strong>
@@ -221,7 +230,7 @@ export default function ProcessPage() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#2171A1", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<ScatterPlotOutlinedIcon />}
         >
           <Typography>
             <strong>Grouping</strong>
@@ -257,7 +266,7 @@ export default function ProcessPage() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#2171A1", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<PanToolOutlinedIcon />}
         >
           <Typography>
             <strong>Manual refinements</strong>
@@ -288,7 +297,7 @@ export default function ProcessPage() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#185C9D", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<InsertChartOutlinedIcon />}
         >
           <Typography>
             <strong>Visualizations</strong>
@@ -307,7 +316,7 @@ export default function ProcessPage() {
 
         <VerticalTimelineElement
           iconStyle={{ background: "#185C9D", color: "#fff" }}
-          icon={<CodeIcon />}
+          icon={<SearchOutlinedIcon />}
         >
           <Typography>
             <strong>Analysis</strong>
