@@ -82,7 +82,7 @@ export default function ProcessPage() {
             <br />
             <code>
               ML (machine learning) => machine learning <br /> Natural language
-              processing (NPL) => Natural language processing
+              processing (NLP) => Natural language processing
             </code>
           </Typography>
         </VerticalTimelineElement>
@@ -109,7 +109,7 @@ export default function ProcessPage() {
             keywords were added. The similarity check with the keywords in the
             database was performed using the{" "}
             <a href="https://github.com/seatgeek/fuzzywuzzy">fuzzywuzzy</a>{" "}
-            python package. It parses the texts into tokes and compares them
+            python package. It parses the texts into tokens and compares them
             using the{" "}
             <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">
               Levenshtein distance
