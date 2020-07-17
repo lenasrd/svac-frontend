@@ -13,8 +13,11 @@ export default function LegalPage() {
         The website itself does not store any user data and does not use
         cookies.
         <br />
-        However it uses embedded graphics hosted by Flourish. Please see their
-        privacy page for more details on that.
+        However it uses embedded graphics hosted by{" "}
+        <a href="https://flourish.studio/">Flourish</a>. Please see their{" "}
+        <a href="https://flourish.studio/privacy/">
+          privacy page for more details on that.
+        </a>
         <br />
         <br />
         <strong>Imprint</strong>
